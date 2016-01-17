@@ -22,7 +22,7 @@ class Debug {
         echo "<div style='
             position:absolute;
             top:0px;
-            left:0px;
+            right:0px;
             margin: 0px;
             padding: 0px;
             text-align:left;

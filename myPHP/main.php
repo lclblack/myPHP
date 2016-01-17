@@ -31,8 +31,6 @@ define('PATH_JS', PATH_PUBLIC.'js/');
 define('PATH_IMG', PATH_PUBLIC.'img/');
 define('PATH_MEDIA', PATH_PUBLIC.'media/');
 define('PATH_UPLOAD', PATH_PUBLIC.'upload/');
-//包含配置文件
-include DIR_ROOT.'config.php';
 //包含公用函数
 include DIR_MYPHP.'functions.php';
 //设置包含目录（类所在的全部目录）,  PATH_SEPARATOR 分隔符号 Linux(:) Windows(;)
@@ -57,7 +55,10 @@ function myAutoload($className){
     }
 }
 session_start();
+Structure::init();
 Prourl::parseUrl();
+//包含配置文件
+include DIR_ROOT.'config.php';
 //Debug
 if(DEBUG) {
     Debug::set_start_time();
