@@ -1,27 +1,27 @@
-#myPHP
+ï»¿#myPHP
 this is myPHP framework for PHP Develop.
 learn php
 
-¿ò¼ÜËµÃ÷
+æ¡†æ¶è¯´æ˜
 
-Ä¿Â¼½á¹¹£º
-myPHP/			-¿ò¼ÜÄ¿Â¼
-myPHP/class/		-¿ò¼Ü¹«ÓÃÀà
-myPHP/libs/		-smartyÄ¿Â¼
-myPHP/functions.php	-¿ò¼Ü¹«ÓÃº¯Êı
-myPHP/main.php		-Ö÷Èë¿ÚÎÄ¼ş
-myPHP/readme		-¿ò¼ÜËµÃ÷
-class/			-¹«ÓÃº¯Êı
-APP_NAME/		-ÏîÄ¿ÎÄ¼ş¼Ğ
-APP_NAME/TPL/		-ÏîÄ¿tplÎÄ¼ş
-APP_NAME/mySmarty/  	-ÏîÄ¿phpÎÄ¼ş
-APP_NAME/public/	-¹«ÓÃÎÄ¼ş
-APP_NAME/public/css	-¹«ÓÃcss
-APP_NAME/public/js	-¹«ÓÃjs
-APP_NAME/public/img	-¹«ÓÃimg
-APP_NAME/public/media	-¹«ÓÃÃ½Ìå
-APP_NAME/public/upload	-ÉÏ´«ÎÄ¼ş
-APP_NAME/runtime/	-ÔËĞĞÉú³ÉÎÄ¼ş
-APP_NAME/runtime/cache	-smartyÓÃ
-APP_NAME/runtime/compile-smartyÓÃ
-APP_NAME/runtime/config	-smartyÓÃ
+ç›®å½•ç»“æ„ï¼š
+myPHP/			-æ¡†æ¶ç›®å½•
+myPHP/class/		-æ¡†æ¶å…¬ç”¨ç±»
+myPHP/libs/		-smartyç›®å½•
+myPHP/functions.php	-æ¡†æ¶å…¬ç”¨å‡½æ•°
+myPHP/main.php		-ä¸»å…¥å£æ–‡ä»¶
+myPHP/readme		-æ¡†æ¶è¯´æ˜
+class/			-å…¬ç”¨å‡½æ•°
+APP_NAME/		-é¡¹ç›®æ–‡ä»¶å¤¹
+APP_NAME/TPL/		-é¡¹ç›®tplæ–‡ä»¶
+APP_NAME/mySmarty/  	-é¡¹ç›®phpæ–‡ä»¶
+APP_NAME/public/	-å…¬ç”¨æ–‡ä»¶
+APP_NAME/public/css	-å…¬ç”¨css
+APP_NAME/public/js	-å…¬ç”¨js
+APP_NAME/public/img	-å…¬ç”¨img
+APP_NAME/public/media	-å…¬ç”¨åª’ä½“
+APP_NAME/public/upload	-ä¸Šä¼ æ–‡ä»¶
+APP_NAME/runtime/	-è¿è¡Œç”Ÿæˆæ–‡ä»¶
+APP_NAME/runtime/cache	-smartyç”¨
+APP_NAME/runtime/compile-smartyç”¨
+APP_NAME/runtime/config	-smartyç”¨
