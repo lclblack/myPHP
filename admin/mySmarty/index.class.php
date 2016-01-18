@@ -12,6 +12,9 @@ class index extends MySmarty {
             $this->login_get();
             exit;
         }
+        if(isset($_SESSION["username"])) {
+            $this->assign("username", $_SESSION["username"]);
+        }
     }
     public function index() {
         $this->display("index.tpl");
@@ -48,7 +51,7 @@ class index extends MySmarty {
         }
     }
     public function login_out() {
-        
+        header("Location:".PATH_APP."index/login");
     }
 
     public function login_catch($username,$password) {
