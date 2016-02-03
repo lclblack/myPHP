@@ -47,8 +47,15 @@
         <!--搜索栏结束-->
         <form role="search" action="http://www.baidu.com/baidu" target="_blank">
             <div class="form-group">
-                <input name="tn" type="hidden" value="SE_zzsearchcode_shhzc78w" style="">
-                <input type="text" class="form-control" placeholder="百度搜索" onfocus="checkHttps" name="word">
+                <div class="input-group">
+                    <input name="tn" type="hidden" value="SE_zzsearchcode_shhzc78w" style="">
+                    <input type="text" class="form-control" placeholder="百度搜索" onfocus="checkHttps;" name="word">
+                    <span class="input-group-btn">
+                        <button class="btn btn-default" type="submit">
+                            <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                        </button>
+                    </span>
+                </div>
             </div>
         </form>
         <!--搜索栏结束-->

@@ -19,6 +19,13 @@ class index extends MySmarty {
     public function index() {
         $this->display("index.tpl");
     }
+    public function chat_get() {
+        
+    }
+    public function chat_catch() {
+        echo 'hello'.$_POST['chat'];
+    }
+
     public function login() {
         $error_mess = "登录";
         if($_SESSION["login"]==LOGIN_ERROR) {
@@ -53,7 +60,6 @@ class index extends MySmarty {
     public function login_out() {
         header("Location:".PATH_APP."index/login");
     }
-
     public function login_catch($username,$password) {
         $c = new my_user();
         $r = $c->query_select("user='$username' and passwd='$password'");

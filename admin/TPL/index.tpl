@@ -5,23 +5,10 @@
     <!--留言板-->
     <div class="col-md-8">
         <div class="panel panel-default chat">
-            <div class="panel-heading" id="accordion"><span class="glyphicon glyphicon-comment"></span>留言栏</div>
+            <div class="panel-heading" id="accordion"><span class="glyphicon glyphicon-comment"></span> 留言栏</div>
             <div class="panel-body">
                 <ul>
-                    <li class="left clearfix">
-                        <span class="chat-img pull-left">
-                            <img src="http://placehold.it/80/30a5ff/fff" alt="User Avatar" class="img-circle" />
-                        </span>
-                        <div class="chat-body clearfix">
-                            <div class="header">
-                                <strong class="primary-font">李牧云</strong> <small class="text-muted">32 mins ago</small>
-                            </div>
-                            <p>
-                                this is a test!
-                            </p>
-                        </div>
-                    </li>
-                    <li class="right clearfix">
+                    <!--<li class="right clearfix">
                         <span class="chat-img pull-right">
                             <img src="http://placehold.it/80/dde0e6/5f6468" alt="User Avatar" class="img-circle" />
                         </span>
@@ -33,17 +20,32 @@
                                 this is a test too!
                             </p>
                         </div>
+                    </li>-->
+                    <li class="left clearfix">
+                        <div class="header">
+                            <strong class="primary-font">
+                                李牧云
+                            </strong>
+                            <small class="text-muted">
+                                time
+                            </small>
+                        </div>
+                        <p>
+                            this is a test!
+                        </p>
                     </li>
                 </ul>
             </div>
+            <form action="<{$path_app}>index/chat_catch" method="post">
             <div class="panel-footer">
                 <div class="input-group">
-                    <input id="btn-input" type="text" class="form-control input-md" placeholder="写入你的留言..." />
+                    <input id="btn-input" type="text" class="form-control input-md" placeholder="写入你的留言..." name="chat" />
                     <span class="input-group-btn">
-                        <button class="btn btn-success btn-md" id="btn-chat">发送</button>
+                        <button class="btn btn-success btn-md" id="btn-chat" type="submit">发送</button>
                     </span>
                 </div>
             </div>
+            </form>
         </div>
     </div><!--/.col-->
     <!--留言板结束-->
