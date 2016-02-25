@@ -1,8 +1,29 @@
 <?php
 //创建项目文件结构
+define('D0', DIR_ROOT.APP_NAME);
+define('D1', DIR_APP."TPL");
+define('D2', DIR_APP."mySmarty");
+define('D3', DIR_APP."public");
+define('D4', DIR_APP."public/css");
+define('D5', DIR_APP."public/js");
+define('D6', DIR_APP."public/img");
+define('D7', DIR_APP."public/media");
+define('D8', DIR_APP."public/upload");
+define('D9', DIR_APP."runtime");
 class Structure {
     static $message = '';
-    
+    static $dirs = [
+        D0,
+        D1,
+        D2,
+        D3,
+        D4,
+        D5,
+        D6,
+        D7,
+        D8,
+        D9
+    ];
     static function init() {
         $lock = DIR_APP.APP_NAME.".lock";
         if(!file_exists($lock)) {
@@ -55,16 +76,5 @@ class index extends MySmarty {
     }
 }
 str;
-    static $dirs = array(
-        DIR_ROOT.APP_NAME,
-        DIR_APP."TPL",
-        DIR_APP."mySmarty",
-        DIR_APP."public",
-        DIR_APP."public/css",
-        DIR_APP."public/js",
-        DIR_APP."public/img",
-        DIR_APP."public/media",
-        DIR_APP."public/upload",
-        DIR_APP."runtime",
-    );
+    
 }

@@ -1,6 +1,6 @@
 <?php
 //myDB内文件必须继承该文件
-class myDB extends mysqli {
+class MyDB extends mysqli {
     private $tableName;
     public function __construct($tableName='') {
         parent::__construct(HOST, USER, PASSWD, DATABASE);

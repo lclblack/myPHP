@@ -1,4 +1,6 @@
 <?php
+ini_set("display_errors", "On");
+error_reporting(E_ALL | E_STRICT);
 //主入口文件
 header("Content-Type:text/html;charset=utf-8");  //设置系统的输出字符为utf-8
 date_default_timezone_set("PRC");    		 //设置时区（中国）
